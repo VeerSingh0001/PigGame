@@ -1,6 +1,9 @@
 # PigGame
 This is a web browser based Pig Game. It is built in HTML, CSS &amp; JavaScript. 
 
+#Live Preview:
+https://veersingh0001.github.io/PigGame/
+
 #Working:
 
 1. Click on "Roll Dice" button. That will generate a random dice and that dice number will be added to current score of active player.
