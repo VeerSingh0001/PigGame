@@ -73,6 +73,7 @@ btnHold.addEventListener("click", function () {
         .querySelector(`.player--${activePlayer}`)
         .classList.add("player--winner");
       diceEL.classList.add("hidden");
+      document.getElementById(`name--${activePlayer}`).textContent = '🎉Winner🎉'
     } else {
       changePlayer();
     }
@@ -89,7 +90,5 @@ btnNew.addEventListener("click", function () {
     player1.classList.remove("player--active");
     document.getElementById(`current--0`).textContent = curntScore;
     document.getElementById(`current--1`).textContent = curntScore;
-    //For resting score array to 0
-    //   for (let i = 0; i < score.length; i++) score[i] = 0;
   playing = true;
 });
